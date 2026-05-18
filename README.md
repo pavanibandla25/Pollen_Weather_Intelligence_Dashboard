@@ -30,7 +30,7 @@ Seasonal allergies affect millions in Germany. This dashboard helps users track 
 ![Pollen](assets/screenshots/pollen.png)
 
 ### 📅 7‑Day weather forecast
-![History](assets/screenshots/history.png)
+[![7‑Day Weather Forecast](assets/7 days_weather_forecast.png)](https://github.com/pavanibandla25/pollen_weather_project/blob/main/assets/7%20days_weather_forecast.png)
 
 ### ☀️ Weather Forecast (Meteo)
 ![Weather](assets/screenshots/weather.png)
