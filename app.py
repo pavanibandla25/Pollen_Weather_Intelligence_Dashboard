@@ -293,14 +293,10 @@ def weather_style(val):
     if "🌧️" in str(val) or "⛈️" in str(val): return "background-color:#E0F7FA;"  # rain
     return "background-color:#F7F9F9; font-weight:600;"
 
-styled_weather = weather_table.style.applymap(weather_style)
-
+styled_weather = weather_table.style.map(weather_style)
 st.dataframe(styled_weather, use_container_width=True)
 
 st.markdown("<div class='after-today-line'></div>", unsafe_allow_html=True)
-
-
-
 
 
 # ============================
