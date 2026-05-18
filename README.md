@@ -9,11 +9,16 @@ Built with Python, Streamlit, and real-time APIs.
 <h1 align="center">🌿 Pollen & Weather Dashboard – Germany</h1>
 
 🔗 **Live App:** https://pollen-weather-dashboard.streamlit.app  
+-------------------------------------------------------------------------------------------------
+
+🌟 **Why this project?  
+Seasonal allergies affect millions in Germany. This dashboard helps users track pollen levels and weather conditions in real time, combining multiple APIs into one clean interface.
+
 📍 **Location:** Germany  
 👩‍💻 **Author:** Pavani Bandla  
 🔗 **LinkedIn:** www.linkedin.com/in/pavani-bandla-893a76402
 
----
+-----------------------------------------------------------------------------------------------------------
 
 ## 📸 Dashboard Preview
 
@@ -23,16 +28,19 @@ Built with Python, Streamlit, and real-time APIs.
 ### 🌼 Pollen Forecast (DWD)
 ![Pollen](assets/screenshots/pollen.png)
 
+### 📅 7‑Day weather forecast
+![History](assets/screenshots/history.png)
+
 ### ☀️ Weather Forecast (Meteo)
 ![Weather](assets/screenshots/weather.png)
 
 ### 📊 Trend Charts
 ![Trends](assets/screenshots/trends.png)
 
-### 📅 7‑Day History
-![History](assets/screenshots/history.png)
 
----
+
+
+-------------------------------------------------------------------------------------------------
 
 ## 🚀 Features
 
@@ -44,7 +52,7 @@ Built with Python, Streamlit, and real-time APIs.
 - 🏙️ **City Selection** for personalized forecasts  
 - 📈 **Clean, interactive Streamlit UI**
 
----
+-------------------------------------------------------------------------------------------------
 
 ## 🧠 How It Works
 
