@@ -194,9 +194,9 @@ with col5:
 st.markdown("<div class='after-today-line'></div>", unsafe_allow_html=True)
 
 # ============================
-# 5-DAY POLLEN TABLE
+# 2-DAY POLLEN TABLE
 # ============================
-st.markdown("<h2 style='font-weight:800;'>🌾 5‑Day Pollen Forecast</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='font-weight:800;'>🌾 2‑Day Pollen Forecast</h2>", unsafe_allow_html=True)
 
 def normalize_level(value):
     v = str(value).strip()
@@ -226,6 +226,82 @@ styled_pollen = pollen_table.style.apply(
 st.dataframe(styled_pollen, use_container_width=True)
 
 st.markdown("<div class='after-today-line'></div>", unsafe_allow_html=True)
+
+# ============================
+# 🌦️ BEAUTIFUL 7‑DAY WEATHER TABLE
+# ============================
+def wind_direction_label(deg):
+    if deg >= 337 or deg < 22: return f"{deg}° N"
+    if deg < 67: return f"{deg}° NE"
+    if deg < 112: return f"{deg}° E"
+    if deg < 157: return f"{deg}° SE"
+    if deg < 202: return f"{deg}° S"
+    if deg < 247: return f"{deg}° SW"
+    if deg < 292: return f"{deg}° W"
+    return f"{deg}° NW"
+
+st.markdown("<h2 style='font-weight:800;'>🌦️ 7‑Day Weather Forecast</h2>", unsafe_allow_html=True)
+
+weather_cols = ["date", "temp_max", "temp_min", "rain_sum", "wind_max", "wind_direction"]
+
+weather_table = weather_city[weather_cols].copy()
+
+# ROUND VALUES
+weather_table["temp_max"] = weather_table["temp_max"].round().astype(int)
+weather_table["temp_min"] = weather_table["temp_min"].round().astype(int)
+weather_table["rain_sum"] = weather_table["rain_sum"].round(1)
+weather_table["wind_max"] = weather_table["wind_max"].round().astype(int)
+
+# WEATHER ICONS
+def temp_icon(t):
+    if t >= 28: return "🔥"
+    if t >= 22: return "☀️"
+    if t >= 15: return "⛅"
+    if t >= 8:  return "🌥️"
+    return "❄️"
+
+def rain_icon(r):
+    if r == 0: return "—"
+    if r < 1: return "🌦️"
+    if r < 5: return "🌧️"
+    return "⛈️"
+
+def wind_arrow(deg):
+    if deg >= 337 or deg < 22: return "↑"
+    if deg < 67: return "↗"
+    if deg < 112: return "→"
+    if deg < 157: return "↘"
+    if deg < 202: return "↓"
+    if deg < 247: return "↙"
+    if deg < 292: return "←"
+    return "↖"
+
+# APPLY ICONS
+weather_table["temp_max"] = weather_table["temp_max"].astype(str) + "°C " + weather_table["temp_max"].apply(temp_icon)
+weather_table["temp_min"] = weather_table["temp_min"].astype(str) + "°C"
+weather_table["rain_sum"] = weather_table["rain_sum"].astype(str) + " mm " + weather_table["rain_sum"].apply(rain_icon)
+weather_table["wind_max"] = weather_table["wind_max"].astype(str) + " km/h"
+weather_table["wind_direction"] = weather_table["wind_direction"].apply(wind_direction_label)
+
+
+# COLOR STYLING
+def weather_style(val):
+    if "🔥" in str(val): return "background-color:#FFEBEE; font-weight:600;"     # hot
+    if "☀️" in str(val): return "background-color:#FFF8E1; font-weight:600;"     # warm
+    if "⛅" in str(val): return "background-color:#E3F2FD; font-weight:600;"     # mild
+    if "❄️" in str(val): return "background-color:#E1F5FE; font-weight:600;"     # cold
+    if "🌧️" in str(val) or "⛈️" in str(val): return "background-color:#E0F7FA;"  # rain
+    return "background-color:#F7F9F9; font-weight:600;"
+
+styled_weather = weather_table.style.applymap(weather_style)
+
+st.dataframe(styled_weather, use_container_width=True)
+
+st.markdown("<div class='after-today-line'></div>", unsafe_allow_html=True)
+
+
+
+
 
 # ============================
 # 7-DAY TRENDS
