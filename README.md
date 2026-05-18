@@ -17,19 +17,20 @@ Seasonal allergies affect millions in Germany. This dashboard helps users track 
 ## 📸 Dashboard Preview
 [![Pollen Today Overview](assets/pollen_today_overview.png)](assets/pollen_today_overview.png)
 
-
-
 ### 📅 7‑Day weather forecast
 [![7‑Day Weather Forecast](assets/7\ days_weather_forecast.png)](assets/7%20days_weather_forecast.png)
 
-
-
-
+------------------------------------------------------------------------------------------------------
 ### 📊 Trend Charts
 
-assets/past7_grass pollen-VS-temparature.png
+### 🌾 Grass Pollen vs Temperature
+[![Grass Pollen vs Temperature](assets/past7_grass%20pollen-VS-temparature.png)](assets/past7_grass%20pollen-VS-temparature.png)
 
+### 💨 Grass Pollen vs Wind
+[![Grass Pollen vs Wind](assets/passt7-grasspollen-vs-wind.png)](assets/passt7-grasspollen-vs-wind.png)
 
+### 🌧 Grass Pollen vs Rain
+[![Grass vs Rain](assets/past7_grass_vs_rain.png)](assets/past7_grass_vs_rain.png)
 
 -------------------------------------------------------------------------------------------------
 
@@ -82,18 +83,20 @@ assets/past7_grass pollen-VS-temparature.png
 ---
 ## 📂 Project Structure
 pollen_weather_project/
-│
-├── app.py                               # Streamlit dashboard
-├── requirements.txt                      # Dependencies
-├── dwd_pollen_5day.csv                   # Pollen forecast data
-├── meteo_weather_5day.csv                # Weather forecast data
-├── combined_7days.csv                    # 7-day history
-│
-├── scraping_pollen_weather_History.ipynb # Daily history scraper
-├── pollen_and_weather_scraping.ipynb     # API + scraping logic
-│
-└── assets/
-└── screenshots/                      # Dashboard images
+├── app/
+│   └── app.py
+├── data/
+│   ├── combined_7days.csv
+│   ├── dwd_pollen_5day.csv
+│   └── meteo_weather_5day.csv
+├── notebooks/
+│   ├── pollen_and_weather_scraping.ipynb
+│   └── scraping_pollen_weather_History.ipynb
+├── assets/
+│   └── images...
+├── README.md
+└── requirements.txt
+
 
 
 -------------------------------------------------------------------------------------------------------------------
