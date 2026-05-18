@@ -26,13 +26,13 @@ Seasonal allergies affect millions in Germany. This dashboard helps users track 
 
 
 ### 📅 7‑Day weather forecast
-[![7‑Day Weather Forecast](assets/7 days_weather_forecast.png)]
+[![7‑Day Weather Forecast](assets/7\ days_weather_forecast.png)](assets/7%20days_weather_forecast.png)
 
-### ☀️ Weather Forecast (Meteo)
-![Weather](assets/screenshots/weather.png)
+
+
 
 ### 📊 Trend Charts
-![Trends](assets/screenshots/trends.png)
+
 
 
 
