@@ -21,16 +21,12 @@ Seasonal allergies affect millions in Germany. This dashboard helps users track 
 -----------------------------------------------------------------------------------------------------------
 
 ## 📸 Dashboard Preview
-
-### 🌤️ Home Dashboard
-[![7‑Day Weather Forecast](assets/7 days_weather_forecast.png)](https://github.com/pavanibandla25/pollen_weather_project/blob/main/assets/7%20days_weather_forecast.png)
+[![Pollen Today Overview](assets/pollen_today_overview.png)](assets/pollen_today_overview.png)
 
 
-### 🌼 Pollen Forecast (DWD)
-![Pollen](assets/screenshots/pollen.png)
 
 ### 📅 7‑Day weather forecast
-[![7‑Day Weather Forecast](assets/7 days_weather_forecast.png)](https://github.com/pavanibandla25/pollen_weather_project/blob/main/assets/7%20days_weather_forecast.png)
+[![7‑Day Weather Forecast](assets/7 days_weather_forecast.png)]
 
 ### ☀️ Weather Forecast (Meteo)
 ![Weather](assets/screenshots/weather.png)
