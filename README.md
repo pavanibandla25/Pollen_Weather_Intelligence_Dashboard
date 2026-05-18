@@ -2,12 +2,6 @@
 A live Streamlit dashboard that combines **pollen forecast**, **weather forecast**, and **7‑day historical trends** for German cities.  
 Built with Python, Streamlit, and real-time APIs.
 
-<p align="center">
-  <img src="assets/logo/pollen_weather_logo.png" alt="Pollen Weather Logo" width="200">
-</p>
-
-<h1 align="center">🌿 Pollen & Weather Dashboard – Germany</h1>
-
 🔗 **Live App:** https://pollen-weather-dashboard.streamlit.app  
 -------------------------------------------------------------------------------------------------
 
@@ -33,7 +27,7 @@ Seasonal allergies affect millions in Germany. This dashboard helps users track 
 
 ### 📊 Trend Charts
 
-
+assets/past7_grass pollen-VS-temparature.png
 
 
 
