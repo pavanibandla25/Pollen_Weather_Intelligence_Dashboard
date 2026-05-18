@@ -218,7 +218,11 @@ pollen_table = pollen_city[["date"] + pollen_cols].copy()
 for col in pollen_cols:
     pollen_table[col] = pollen_table[col].apply(normalize_level)
 
-styled_pollen = pollen_table.style.applymap(level_style, subset=pollen_cols)
+styled_pollen = pollen_table.style.apply(
+    lambda col: col.map(level_style),
+    subset=pollen_cols
+)
+
 st.dataframe(styled_pollen, use_container_width=True)
 
 st.markdown("<div class='after-today-line'></div>", unsafe_allow_html=True)
