@@ -8,35 +8,37 @@
 
 # 🌿 Pollen & Weather Intelligence Dashboard
 
-### Real‑time pollen and weather forecasting for allergy‑aware decision making across German cities.
+⭐ Real‑time pollen and weather forecasting for allergy‑aware decision making across German cities.
 
-⭐ A real‑time environmental analytics dashboard for allergy‑aware decision making across German cities.
+# Live Demo 
 
-# Live Demo  
-click here : https://pollen-weather-dashboard.streamlit.app
+click here_for app : https://pollen-weather-dashboard.streamlit.app
 
 # 📌 Overview
 
 ⭐The Pollen & Weather Intelligence Dashboard combines pollen forecasts and weather data into a single, interactive Streamlit application.
 It helps users — especially those with allergies — understand:
 
-- city selection 
-👉 ![Cities Dropdown](assets/cities_drop_down.png)
+# city selection
+  
+👉 [Cities Dropdown](assets/cities_drop_down.png)
 
-- Today’s pollen severity, 5‑day pollen forecast
+# Today’s pollen severity, 5‑day pollen forecast
+  
 👉 [📌 Pollen Today Overview](assets/pollen_today_overview.png)
 
-- 7‑day weather forecast
-👉 ![7‑Day Weather Forecast](assets/7%20days_weather_forecast.png)
+# 7‑day weather forecast
+ 
+👉 [7‑Day Weather Forecast](assets/7%20days_weather_forecast.png)
 
 
-- Historical grass-pollen vs. weather correlations
+#  Historical grass-pollen vs. weather correlations
 
-👉 ![Grass vs Rain](assets/past7_grass_vs_rain.png)
+👉 [Grass vs Rain](assets/past7_grass_vs_rain.png)
 
-👉 ![Grass vs Wind](assets/passt7-grasspollen-vs-wind.png)
+👉 [Grass vs Wind](assets/passt7-grasspollen-vs-wind.png)
 
-👉 ![Grass vs Temperature](assets/past7_grass%20pollen-VS-temparature.png)
+👉 [Grass vs Temperature](assets/past7_grass%20pollen-VS-temparature.png)
 
 This dashboard is built using Python, Streamlit, Pandas, and API‑based data scraping.
 
