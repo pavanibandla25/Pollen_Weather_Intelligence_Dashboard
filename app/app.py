@@ -62,10 +62,10 @@ st.markdown("""
 # ============================
 # LOAD CSV FILES
 # ============================
-pollen_df = pd.read_csv("dwd_pollen_5day.csv")
-weather_df = pd.read_csv("meteo_weather_5day.csv")
+pollen_df = pd.read_csv("Data/dwd_pollen_5day.csv")
+weather_df = pd.read_csv("Data/meteo_weather_5day.csv")
 
-combined_7_df = pd.read_csv("combined_7days.csv")
+combined_7_df = pd.read_csv("Data/combined_7days.csv")
 combined_7_df["date"] = pd.to_datetime(combined_7_df["date"])
 
 # ============================
