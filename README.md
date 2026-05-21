@@ -10,13 +10,11 @@
 
 ⭐Real‑time pollen + weather insights for allergy‑aware decisions across German cities
 
-# Live Demo 
+# Live Demo :
 
 🔗 Live App : https://pollen-weather-dashboard.streamlit.app
 
-## 🎞️ Project Presentation (Canva):
-
-(https://canva.link/sqdp0rbbevcsw2n)
+## 🎞️ Project Presentation (Canva):(https://canva.link/sqdp0rbbevcsw2n)
 
 
 # 📌 Overview
@@ -105,11 +103,11 @@ This dashboard is built using Python, Streamlit, Pandas, and API‑based data sc
 
 - Berlin
 
-  # 🧠 Why This Project Matters
+# 🧠 Why This Project Matters
 Pollen allergies affect millions across Europe — yet pollen and weather data are rarely shown together.
 This dashboard solves that gap by offering a single, unified view that helps users make informed decisions about outdoor plans, health, and daily routines.
 
-# 🧠 Tech Stack
+# 🧰 Tech Stack
 | Component | Technology |
 | --- | --- |
 | **Frontend** | Streamlit |
