@@ -12,7 +12,11 @@
 
 # Live Demo 
 
-click here_for app : https://pollen-weather-dashboard.streamlit.app
+click here_for app_preview : https://pollen-weather-dashboard.streamlit.app
+## 🎞️ Presentation (Canva)
+
+👉 Click here to view the full Canva presentation:(https://canva.link/sqdp0rbbevcsw2n)
+
 
 # 📌 Overview
 
