@@ -2,7 +2,8 @@
 👉 A real‑time environmental analytics dashboard for allergy‑aware decision making across German cities.
 
 # 📌 Overview
-The Pollen & Weather Intelligence Dashboard combines pollen forecasts and weather data into a single, interactive Streamlit application.
+
+👉The Pollen & Weather Intelligence Dashboard combines pollen forecasts and weather data into a single, interactive Streamlit application.
 It helps users — especially those with allergies — understand:
 
 - Today’s pollen severity
@@ -11,9 +12,9 @@ It helps users — especially those with allergies — understand:
 
 - 7‑day weather forecast
 
--How weather conditions influence pollen levels
+- How weather conditions influence pollen levels
 
--Historical pollen vs. weather correlations
+- Historical pollen vs. weather correlations
 
 This dashboard is built using Python, Streamlit, Pandas, and API‑based data scraping.
 
@@ -61,7 +62,7 @@ This dashboard is built using Python, Streamlit, Pandas, and API‑based data sc
 
 - Stuttgart
 
--Munich
+- Munich
 
 - Berlin
 
@@ -106,12 +107,15 @@ Pollen_Weather_Intelligence_Dashboard/
 1️⃣ Clone the repository
 Code
 👉 git clone https://github.com/pavanibandla25/Pollen_Weather_Intelligence_Dashboard.git
+
 2️⃣ Install dependencies
 Code
 - pip install -r requirements.txt
+ 
 3️⃣ Run the Streamlit app
 Code
 - streamlit run app/app.py
+  
 # 📡 Data Sources
 - DWD (Deutscher Wetterdienst) – Pollen Forecast API
 
