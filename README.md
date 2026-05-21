@@ -1,6 +1,21 @@
-# 🌿 Pollen & Weather Intelligence Dashboard
-👉 A real‑time environmental analytics dashboard for allergy‑aware decision making across German cities.
+<p align="center">
+  <img src="assets/banner.png" alt="Pollen & Weather Intelligence Dashboard Banner" width="100%">
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen">
+  <img src="https://img.shields.io/badge/Data-DWD%20Pollen%20API-purple">
+  <img src="https://img.shields.io/badge/Data-Meteo%20Weather%20API-blueviolet">
+</p>
+
+![Last Updated](https://img.shields.io/github/last-commit/pavanibandla25/Pollen_Weather_Intelligence_Dashboard?label=Last%20Updated&color=orange)
+
+
+👉 A real‑time environmental analytics dashboard for allergy‑aware decision making across German cities.
+👉 Live Demo  
+click here : https://pollen-weather-dashboard.streamlit.app
 # 📌 Overview
 
 👉The Pollen & Weather Intelligence Dashboard combines pollen forecasts and weather data into a single, interactive Streamlit application.
@@ -8,15 +23,24 @@ It helps users — especially those with allergies — understand:
 
 - Today’s pollen severity
 
-- 2‑day pollen forecast
+- 5‑day pollen forecast
 
-- 7‑day weather forecast
+- 5‑day weather forecast
 
 - How weather conditions influence pollen levels
 
 - Historical pollen vs. weather correlations
 
 This dashboard is built using Python, Streamlit, Pandas, and API‑based data scraping.
+
+# Screenshot of the Dashboard
+
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="assets/dashboard.png" alt="Dashboard Screenshot" width="80%">
+</p>
+
 
 # 🌦️ Features
 ✅ Today’s Pollen Overview
