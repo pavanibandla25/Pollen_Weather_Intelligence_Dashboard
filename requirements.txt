@@ -1,9 +1,9 @@
-streamlit  #Runs your dashboard.
-pandas   #For dataframes, merging, cleaning, calculations.
+streamlit            #Runs your dashboard.
+pandas               #For dataframes, merging, cleaning, calculations.
 numpy
-requests   #For calling DWD pollen API + Meteo API.
+requests             #For calling DWD pollen API + Meteo API.
 matplotlib
-seaborn     #For your PNG plots in the assets folder.
+seaborn              #For your PNG plots in the assets folder.
 python-dateutil
-pytz  #For handling Germany time, converting dates, parsing API timestamps.
+pytz                 #For handling Germany time, converting dates, parsing API timestamps.
 
