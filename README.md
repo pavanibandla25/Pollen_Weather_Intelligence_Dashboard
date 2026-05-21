@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Pollen & Weather Intelligence Dashboard Banner" width="100%">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit">
   <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen">
@@ -10,11 +6,13 @@
   <img src="https://img.shields.io/badge/Data-Meteo%20Weather%20API-blueviolet">
 </p>
 
-![Last Updated](https://img.shields.io/github/last-commit/pavanibandla25/Pollen_Weather_Intelligence_Dashboard?label=Last%20Updated&color=orange)
+# 🌿 Pollen & Weather Intelligence Dashboard
 
+### Real‑time pollen and weather forecasting for allergy‑aware decision making across German cities.
 
 👉 A real‑time environmental analytics dashboard for allergy‑aware decision making across German cities.
-👉 Live Demo  
+
+# Live Demo  
 click here : https://pollen-weather-dashboard.streamlit.app
 # 📌 Overview
 
@@ -38,7 +36,7 @@ This dashboard is built using Python, Streamlit, Pandas, and API‑based data sc
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Dashboard Screenshot" width="80%">
+  <img src="assets/dashboard.png" alt="" width="80%">
 </p>
 
 
