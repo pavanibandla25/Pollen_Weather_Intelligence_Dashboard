@@ -8,21 +8,31 @@
 
 # 🌿 Pollen & Weather Intelligence Dashboard
 
-⭐ Real‑time pollen and weather forecasting for allergy‑aware decision making across German cities.
+⭐Real‑time pollen + weather insights for allergy‑aware decisions across German cities
 
 # Live Demo 
 
-click here_for app_preview : https://pollen-weather-dashboard.streamlit.app
-## 🎞️ Presentation (Canva)
+🔗 Live App : https://pollen-weather-dashboard.streamlit.app
 
-👉 Click here to view the full Canva presentation:(https://canva.link/sqdp0rbbevcsw2n)
+## 🎞️ Project Presentation (Canva):
+
+(https://canva.link/sqdp0rbbevcsw2n)
 
 
 # 📌 Overview
 
-⭐The Pollen & Weather Intelligence Dashboard combines pollen forecasts and weather data into a single, interactive Streamlit application.
-It helps users — especially those with allergies — understand:
+⭐The Pollen & Weather Intelligence Dashboard is an interactive Streamlit application that brings together real‑time pollen forecasts, 5–7 day weather predictions, and historical correlation analysis for major German cities.
 
+It is designed for:
+
+- People with pollen allergies
+
+- Families planning outdoor activities
+
+- Anyone who wants clear, data‑driven environmental insights
+
+  # The dashboard provides:
+  
 # city selection
   
 👉 [Cities Dropdown](assets/cities_drop_down.png)
@@ -47,16 +57,16 @@ It helps users — especially those with allergies — understand:
 This dashboard is built using Python, Streamlit, Pandas, and API‑based data scraping.
 
 
-# 🌦️ Features
+# 🌦️ Key Features
 ✅ Today’s Pollen Overview
 - Grass, Birch, Alder, and other pollen types
 
-- Severity levels (Low / Moderate / High / Very High)
+- Severity levels: Low → Very High
 
-- Color‑coded indicators
+- Color‑coded indicators for quick understanding
 
 # 📅 2‑Day Pollen Forecast
-- Real‑time pollen predictions from DWD
+- Real‑time predictions from DWD Pollen API
 
 - City‑wise comparison
 
@@ -95,14 +105,19 @@ This dashboard is built using Python, Streamlit, Pandas, and API‑based data sc
 
 - Berlin
 
+  # 🧠 Why This Project Matters
+Pollen allergies affect millions across Europe — yet pollen and weather data are rarely shown together.
+This dashboard solves that gap by offering a single, unified view that helps users make informed decisions about outdoor plans, health, and daily routines.
+
 # 🧠 Tech Stack
-- Component	Technology
-- Frontend	Streamlit
-- Backend	Python
-- Data	DWD Pollen API, Meteo Weather API
-- Visualization	Matplotlib, Seaborn
-- Deployment	Streamlit Cloud
-- Version Control	Git & GitHub
+| Component | Technology |
+| --- | --- |
+| **Frontend** | Streamlit |
+| **Backend** | Python |
+| **Data Sources** | DWD Pollen API, Meteo Weather API |
+| **Visualization** | Matplotlib, Seaborn |
+| **Deployment** | Streamlit Cloud |
+| **Version Control** | Git & GitHub |
 
 
 # 📁 Project Structure
@@ -155,8 +170,6 @@ Code
 
 - Add more German cities
 
-- Add user‑selected city dropdown
-
 - Add automated daily scraping with GitHub Actions
 
 - Add machine‑learning based pollen prediction
@@ -164,5 +177,6 @@ Code
 # 👩‍💻 Author
 Pavani Bandla  
 Data Analyst | Python | SQL | Streamlit | APIs
-👉 GitHub: pavanibandla25  
-👉 LinkedIn: pavani-bandla-893a76402
+
+🔗 GitHub: https://github.com/pavanibandla25 (github.com in Bing)  
+🔗 LinkedIn: https://www.linkedin.com/in/pavani-bandla-893a76402 (linkedin.com in Bing)
