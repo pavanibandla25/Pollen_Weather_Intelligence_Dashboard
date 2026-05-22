@@ -6,4 +6,4 @@ matplotlib
 seaborn              #For your PNG plots in the assets folder.
 python-dateutil
 pytz                 #For handling Germany time, converting dates, parsing API timestamps.
-
+plotly
