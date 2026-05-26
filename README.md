@@ -164,6 +164,7 @@ Code
 - Meteo API – Weather Forecast API
 
 # 🎯 Future Enhancements
+
 - Add AQI (Air Quality Index)
 
 - Add more German cities
